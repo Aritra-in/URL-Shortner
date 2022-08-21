@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>URL Shortner</title>
 </head>
 <body>
     <div class="container">
         <h1>URL Shortner</h1>
-        <input type="text" placeholder="Paste the URL for Shorten">
+        <input id="url" type="text" placeholder="Paste the URL for Shorten">
+        <button type="button" id="copy">
+            <span class="material-icons">content_copy</span>
+        </button>
+    </div>
+    <div class="shorten">
         <button type="button" id="btn">SHORTEN</button>
     </div>
     <script src="main.js"></script>
